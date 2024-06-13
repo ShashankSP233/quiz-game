@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kode Mono', sans-serif;
+}
+
+body {
+    background-image: url("160385.jpg");
+
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    width: 65%;
+    box-shadow: rgba(166, 133, 223, 0.35) 0px 5px 15px;
+    border-radius: 130px;
+    background-color: rgba(24, 13, 36, 0.64);
+    position: relative;
+     
+    padding: 20px;
+}
+
+.landing-page,
+.game-category,
+.quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.landing-page {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page > img {
+    width: 30%;
+}
+
+.landing-page > h1 {
+    font-size: 70px;
+}
+
+.line {
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid rgb(196, 131, 56);
+}
+
+.landing-page > button,
+.category-options > button,
+.quiz > button,
+.option {
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: none;
+    background-color: azure;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.landing-page > button:hover,
+.category-options > button:hover,
+.quiz > button:hover,
+.option:hover {
+    background-color: rgba(55, 6, 214, 0.736);
+}
+
+.category-options,
+#options-container {
+    margin-top: 40px;
+}
+
+.game-category > h1 {
+    font-size: 20px;
+}
+
+.quiz > h2 {
+    font-size: 27px;
+    margin: 10px;
+}
+
+.option {
+    background-color: rgb(242, 242, 242);
+    width: 300px;
+    font-size: 20px;
+}
+
+.option:hover {
+    background-color: rgba(255, 161, 37, 0.736);
+}
+
+.restart-game {
+    position: absolute;
+    bottom: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px;
+    font-size: 27px;
+    border: none;
+    background-image: linear-gradient(to right, #860000 0%, #fc3e25 100%);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.restart-game:hover {
+    background-color: rgb(0, 0, 0);
+}
